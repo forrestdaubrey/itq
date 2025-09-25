@@ -1,0 +1,14 @@
+# MEANS THIS IS HEADER ONE (THE BIGGEST HEADER)
+
+## the more sharp signs you add the smaller the header gets
+
+### just use a little bit of formatting
+
+[THIS IS A HYPERLINK](http:/youtube.com)
+
+`
+
+code code code
+`
+
+![Cat Cat Meme](cat-cat-meme.gif)
