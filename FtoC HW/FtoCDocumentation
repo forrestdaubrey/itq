@@ -1,3 +1,7 @@
 I started by writing the line of code for const c. In the next line, I wrote f = 99. In my third line, I wrote console.log(c).
 
 After I tried running the code and it didn't work, I checked the code along we had done in class and realized the let binding needed to be above the const binding.
+
+I had some trouble to trying to figure out how to export the code I wrote on the Eloquent Java Script page to a .js file. I looked up how to do it and found to do it using the TextEdit application. 
+
+I copied my code from the Eloquent JavaScript page and pasted it into a TextEdit document, and changed the format into plain text. 
