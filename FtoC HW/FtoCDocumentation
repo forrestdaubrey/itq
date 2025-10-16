@@ -1,0 +1,3 @@
+I started by writing the line of code for const c. In the next line, I wrote f = 99. In my third line, I wrote console.log(c).
+
+After I tried running the code and it didn't work, I checked the code along we had done in class and realized the let binding needed to be above the const binding.
