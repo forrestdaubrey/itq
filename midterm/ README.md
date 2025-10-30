@@ -21,8 +21,36 @@ function draw() {
   y += 50
 }
 
-to try to duplicate the glasses image in each tile. However, this instead caused my one glasses image to move diagonally down and to the right.
+to try to duplicate the glasses image in each tile. 
+I also added the variables x and y into the data for all the shapes in my glasses, so that the location of the glasses could change, and I adjusted the numbers added with my variables so that the glasses would start from the edge of the canvas.
+However, when I tried this it instead caused my one glasses image to move diagonally down and to the right.
 I played around with this method a little more, but couldn't find a way for it to work. 
 
 Next, I looked up in google, "how to tile an image in p5.js".
 The google AI Overview offered a few methods to do this, and I tried the first one. 
+
+The code it showed appeared as follows:
+
+function preload() {
+  img = loadImage('your_image.jpg');
+}
+
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(225);
+  let tileWidth = 50;
+  let tileHeight = 50;
+
+  for (let x = 0; x < width; x += tileWidth) {
+    for (let y = 0; y < height; y += tileHeight) {
+      image(img, x, y, tileWidth, tileHeight);
+    }
+  }
+}
+
+I used the lines of code from function draw() to the end in my code, changing the background to (204) and keeping the tileWidth and tileHeight as 50 for each.
+I also replaced the word image in the 4th line from the bottom with the word glasses, as I had made the function glasses earlier in the code, containing all the shapes for my glasses image.
+I deleted the text img in the same line, and when I ran the code it created my glasses image tiled across the canvas.
