@@ -1,6 +1,6 @@
 <a href="https://github.com/JSMcLallen/161-Collective.github.io/blob/main/index.html"> Band Website </a>
 
-I know the link above is to the github, not the actual website, but trying to access the actual website wouldn't work.
+I know the link above is just to the github, not the actual website, but we weren't able to access the actual website using the url for it. The github has our code in it.  
 
 One issue we faced was that after Julian shared with me the index.html file he had created, we found that we weren't able to see the edits each other were making. 
 Instead what we did was I added everything I was writing into a Google Doc we shared, and Julian copy pasted that into the index.html file. 
